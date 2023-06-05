@@ -1,0 +1,93 @@
+/*.navbar {
+    background-color: aquamarine;
+    margin: 0 80% 0 0;
+    display: flex;
+    align-items: center;
+
+}
+  
+  .nav-items li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }*/
+  
+  .icon-bg {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: #F2C94C; /* Set your desired background color */
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .icon-bg svg {
+    fill: #ffffff; /* Set the icon color */
+    width: 20px;
+    height: 20px;
+  }
+  
+  .navbar {
+    /* Add your navbar styles */
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 18%;
+    background-color: #f5f5f5;
+    padding: 50px 10px 20px 5px;
+  }
+  
+  .nav-items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+  }
+  
+  .nav-items li {
+    margin: 10px 0;
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+    margin-right: 0%;
+  }
+
+ 
+  .sub-menu li:hover{
+    background-color: #F2C94C;
+  }
+  
+  .nav-link{
+    text-decoration: none;
+    color: black;
+  }
+
+  .sub-menu-link{
+    text-decoration: none;
+    color: black;
+    list-style-type: georgian;
+    font-size: small;
+  }
+
+  .navbar .nav-item-with-submenu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar .submenu li {
+    padding-left: 20px;
+  }
+
+  .brand-logo{
+    margin-bottom: 50px;
+    
+  }
+  
