@@ -1,0 +1,23 @@
+.heading-container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 80px;
+    background-color: #f5f5f5;
+    width: 79.5%;
+    margin: 10px 10px 0 auto;
+    border: #333333;
+    border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading-container h1 {
+    font-size: 22px;
+    color: #333333;
+    padding-left: 10px;
+  }
+
+  .heading-container p{
+    padding-left: 10px;
+  }
+  

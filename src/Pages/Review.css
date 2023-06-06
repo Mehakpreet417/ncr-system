@@ -1,0 +1,117 @@
+/* ReviewPage.css */
+
+.review-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: auto;
+    background-color: thistle;
+    
+  }
+
+  .review-data{
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  h4 {
+    margin-top: 10px;
+  }
+  
+  .review-page p {
+    margin-bottom: 10px;
+  }
+
+  .data-box{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: powderblue;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 0 20px;
+  }
+
+  .review-column{
+    flex-basis: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+    align-content: center;
+  }
+
+  .Approver-navbar-container{
+    background-color: #f5f5f5;
+    margin-left: auto;
+    width: 50%;
+    margin: 10px 10px 10px auto;
+    border: #333333;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+
+  .Approver-navbar-container h3{
+   font-size: 20px;
+   font-weight: bold;
+  }
+
+  .Approver-navbar{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    
+  }
+  
+  .Approver-navbar li {
+    margin-right: 10px;
+  }
+  
+  .Approver-navbar a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    margin: 0 80px 0 0;
+  }
+  
+  .Approver-navbar a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+.review-container {
+    margin: 20px;
+    width: 50%;
+    margin-left: auto;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
