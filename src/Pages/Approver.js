@@ -31,7 +31,7 @@ const Approver =()=>{
       <div>
       <ul className="Approver-navbar">
         <a href="/review">Details</a>
-        <a href="#">Notes</a>
+        <a href="/review">Notes</a>
       </ul>
       </div>
       
